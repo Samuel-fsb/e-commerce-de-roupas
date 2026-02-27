@@ -73,6 +73,10 @@ body{
     color: #1a1a1a;
 }
 
+#navbar > li > a:hover::after,
+#navbar > li > a.ativar::after{
+    width: 50%;
+}
 
 #navbar > li > a::after{
     content: "";
@@ -87,10 +91,6 @@ body{
     transition: 0.3s ease;
 }
 
-#navbar > li > a:hover::after,
-#navbar > li > a.ativar::after{
-    width: 50%;
-}
 
 li{
     
