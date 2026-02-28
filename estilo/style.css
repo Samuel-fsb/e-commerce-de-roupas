@@ -41,7 +41,7 @@ p{
 }
 
 body{
-    width: 100px;
+    width: 100%;
 }
 
 #header{
@@ -93,7 +93,7 @@ body{
 
 
 #hero{
-    background-image: url("..img/hero4.png");
+    background-image: url("../img/hero4.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -114,5 +114,5 @@ body{
 }
 
 #hero button{
-    background-image: url("img/button.png");
+    background-image: url("../img/button.png");
 }
