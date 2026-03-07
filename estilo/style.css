@@ -209,7 +209,7 @@ body{
     text-align: center;
 }
 
-#product1 .pro-container{
+#product1 .pro-container .pro{
     display: flex;
     justify-content: space-between;
     gap: 40px;
