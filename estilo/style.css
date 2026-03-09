@@ -71,7 +71,7 @@ body{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
 
     /*As configurações abaixo são para fixar o menu de navegação na parte de cima*/
-    z-index: 999px;
+    z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
@@ -209,7 +209,7 @@ body{
     text-align: center;
 }
 
-#product1 .pro-container .pro{
+#product1 .pro-container{
     display: flex;
     justify-content: space-between;
     gap: 40px;
