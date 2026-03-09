@@ -1,6 +1,6 @@
-# Projeto lista de tarefas
+# E-commerce de Roupas
 
-Link do projeto: 
+O link para o projeto ainda não está disponível porque ele está em desenvolvimento.
 
 
 Interface do projeto:
@@ -11,8 +11,7 @@ Interface do projeto:
 📝 **Sobre projeto**
 
 
-Esse projeto é algo que sempre quis construir quando comecei a estudar tecnologia. Estou colocando em prática tudo que aprendi até agora está sendo bastante desafiador e estou aprendendo bastante.
-
+Esse projeto é algo que sempre quis construir quando comecei a estudar tecnologia. Nele, estou colocando em prática todo o conhecimento adquirido até agora, enfrentando desafios reais e expandindo minhas habilidades técnicas.
 
 ### Tecnologias Utilizadas
 1. HTML5
@@ -25,11 +24,7 @@ Esse projeto é algo que sempre quis construir quando comecei a estudar tecnolog
 
 Neste projeto, foquei em aplicar os seguintes conceitos:
 
-* 
-* 
-* 
-* 
-  
-
-### Como funciona?
-* Adicionar Taref
+* Responsividade: Interface adaptável para uma ótima experiência em qualquer dispositivo;
+* UX Design: Foco em usabilidade e navegação intuitiva;
+* Lógica de Checkout: Desenvolvimento de um sistema de simulação de pagamentos;
+* Versionamento: Organização e histórico do código através do Git.
