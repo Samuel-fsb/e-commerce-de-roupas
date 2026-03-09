@@ -419,3 +419,15 @@ body{
 #banner3 .banner-box3{
     background-image: url(../img/banner/b18.jpg);
 }
+
+/* SEÇÃO DE NEWS LETTER */
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(../img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+}
