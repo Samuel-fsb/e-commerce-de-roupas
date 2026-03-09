@@ -212,7 +212,7 @@ body{
 #product1 .pro-container{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
     flex-flow: row wrap;
 }
 
