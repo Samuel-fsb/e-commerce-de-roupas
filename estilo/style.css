@@ -75,7 +75,7 @@ body{
 }
 
 #header{
-    width: 1520px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,6 +114,11 @@ body{
     width: 50%;
 }
 
+#mobile{
+    display: none;
+    align-items: center;
+}
+
 #navbar > li > a::after{
     content: "";
     width: 0;
@@ -126,7 +131,6 @@ body{
     transform: translateX(-50%);
     transition: 0.3s ease;
 }
-
 
 #hero{
     background-image: url("../img/hero4.png");
@@ -540,3 +544,36 @@ footer .copyright{
     text-align: center;
 }
 
+/* CRIANDO A RESPONSIVIDADE PARA CELULARES E TABLETES */
+
+@media (max-width: 799px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile{
+    display: flex;
+    align-items: center;
+    }
+
+    #mobile{
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+    }
+}
