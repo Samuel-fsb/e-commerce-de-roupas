@@ -553,6 +553,7 @@ footer .copyright{
     text-align: center;
 }
 
+
 /* VERSÃO PARA TABLETES */
 
 @media (max-width: 799px){
@@ -654,7 +655,7 @@ footer .copyright{
 
 
 /* VERSÃO PARA CELULARES */
-@media (max-width: 477px){
+@media (max-width: 480px){
     .section-p1{
         padding: 20px;
     }
@@ -681,7 +682,7 @@ footer .copyright{
     }
 
     #feature .fe-box{
-        width: 155px;
+        width: 110px;
         margin: 0px 20px 15px 0px;
     }
 
@@ -690,7 +691,7 @@ footer .copyright{
     }
 
     #banner{
-        height: 40vh;
+        height: 65vh;
     }
 
     #sm-banner .banner-box{
