@@ -33,7 +33,7 @@ h6{
 
 p{
     font-size: 16px;
-    color: #465b52;
+    color: #000000;
 }
 
 .section-p1{
@@ -553,10 +553,15 @@ footer .copyright{
     text-align: center;
 }
 
+/* PÁGINA DE COMPARAS */
+#page-header{
+    background-image: url();
+}
 
-/* VERSÃO PARA TABLETES */
 
-@media (max-width: 799px){
+/* VERSÃO PARA CELULARES MAIORES E TABLETES */
+
+@media (max-width: 768px){
     .section-p1{
         padding: 40px 40px;
     }
@@ -611,7 +616,7 @@ footer .copyright{
 
     #hero{
         height: 70vh;
-        padding: 0px 80px;
+        padding: 0px 20px;
         background-position: top 30% right 30%;
     }
 
@@ -632,7 +637,7 @@ footer .copyright{
     }
 
     #banner{
-        height: 20vh;
+        height: 40vh;
     }
 
     #sm-banner .banner-box{
@@ -642,10 +647,12 @@ footer .copyright{
 
     #banner3{
         padding: 0px 40px;
+        width: 100vw;
     }
-
+    
     #banner3 .banner-box{
         width: 28%;
+        height: 40vh;
     }
 
     #newsletter .form{
