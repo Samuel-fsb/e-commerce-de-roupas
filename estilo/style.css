@@ -161,6 +161,10 @@ body{
     color: #088178;
 }
 
+#hero > p > span{
+    color: #f7ad00;
+}
+
 #hero button{
     background-image: url("../img/button.png");
     background-color: transparent;
@@ -553,14 +557,50 @@ footer .copyright{
     text-align: center;
 }
 
+
 /* PÁGINA DE COMPARAS */
 #page-header{
-    background-image: url();
+    background-image: url("../img/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
+
+#pagination{
+    color: #fff;
+    height: 12vh;
+}
+
+#pagination{
+    text-align: center;    
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
-
 @media (max-width: 768px){
     .section-p1{
         padding: 40px 40px;
