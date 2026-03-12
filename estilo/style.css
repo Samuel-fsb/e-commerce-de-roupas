@@ -686,11 +686,12 @@ footer .copyright{
 
     #feature{
         justify-content: space-between;
+        margin: 0px 50px 0px 20px;
     }
 
     #feature .fe-box{
         width: 110px;
-        margin: 0px -10px 15px 20px;
+        margin: 0px -20px 15px 20px;
     }
 
     #product1 .pro{
