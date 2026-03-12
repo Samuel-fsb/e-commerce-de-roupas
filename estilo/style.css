@@ -600,6 +600,22 @@ footer .copyright{
 }
 
 
+/* PÁGINA DE PRODUTOS MENORES */
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+}
+
+
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
 @media (max-width: 768px){
     .section-p1{
