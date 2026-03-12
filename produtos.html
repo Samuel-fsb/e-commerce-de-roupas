@@ -155,6 +155,7 @@
             
     </section>
 
+
     <!-- SEÇÃO DA NEWSLETTER -->
     <section id="newsletter" class="section-p1">
         <div class="newstext">
@@ -220,6 +221,29 @@
             <p>Direitos reservados ao desenvolvedor <a href="https://github.com/Samuel-fsb">Samuel Bezerra</a></p>
         </div>
     </footer>
+
+    <script>
+        let MainImg = document.getElementById("Mainimg");
+        let smalling = document.getElementsByClassName("small-img");
+
+        smalling[0].onclick = function(){
+            MainImg.scr = smalling[0].scr;
+        };
+
+        smalling[1].onclick = function(){
+            MainImg.scr = smalling[1].scr;
+        };
+
+        smalling[2].onclick = function(){
+            MainImg.scr = smalling[2].scr;
+        };
+
+        smalling[3].onclick = function(){
+          MainImg.scr = smalling[4].scr;  
+        };
+
+    </script>
+
     <script src="arquivo.js"></script>
 </body>
 </html>

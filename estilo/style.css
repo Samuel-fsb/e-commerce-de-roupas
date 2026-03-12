@@ -830,4 +830,21 @@ footer .copyright{
     footer .copyright{
         text-align: start;
     }
+
+    /* PARA CELULARES BEM PEQUENOS */
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    #prodetails .single-pro-details{
+        width: 100%;
+        
+    }
 }
