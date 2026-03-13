@@ -161,9 +161,6 @@ body{
     color: #088178;
 }
 
-#hero > p > span{
-    color: #f7ad00;
-}
 
 #hero button{
     background-image: url("../img/button.png");
