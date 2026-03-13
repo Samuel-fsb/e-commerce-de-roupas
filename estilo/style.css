@@ -174,8 +174,8 @@ body{
     font-size: 15px;
 }
 
-/* SEGUNDO MENU DE NAVEGAÇÃO */
 
+/* SEGUNDO MENU DE NAVEGAÇÃO */
 #feature{
     display: flex;
     align-items: center;
@@ -757,6 +757,10 @@ footer .copyright{
     #newsletter .form{
         width: 70%;
     }
+
+    #prodetails .single-pro-details span{
+        width: 10px;
+    }
 }
 
 
@@ -827,9 +831,9 @@ footer .copyright{
     footer .copyright{
         text-align: start;
     }
+    
 
     /* PARA CELULARES BEM PEQUENOS */
-
     #prodetails{
         display: flex;
         flex-direction: column;
