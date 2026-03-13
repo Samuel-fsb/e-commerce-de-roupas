@@ -1,6 +1,6 @@
 # E-commerce de Roupas
 
-O link para o projeto ainda não está disponível porque ele está em desenvolvimento.
+Link do projeto: https://samuel-fsb.github.io/e-commerce-de-roupas/
 
 
 Interface do projeto:
