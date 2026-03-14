@@ -659,6 +659,15 @@ footer .copyright{
     line-height: 25px;
 }
 
+
+/* PÁGINA DE ARTIGOS */
+
+#page-header.blog-header{
+    background-image: url(../img/banner/b19.jpg);
+}
+
+
+
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
 @media (max-width: 768px){
     .section-p1{
