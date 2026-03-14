@@ -687,8 +687,32 @@ footer .copyright{
     object-fit: cover;
 }
 
+#blog .blog-details{
+    width: 50%;
+}
 
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
 
+#blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 10px;
+    right: -60px;
+}
+
+#blog .blog-details a:hover{
+    color: #088178;
+}
 
 
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
