@@ -737,8 +737,24 @@ footer .copyright{
     background-image: url(../img/about/banner.png);
 }
 
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+  }
 
+#about-head{
+    display: flex;
+    align-items: center;
+}
 
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    
+}
 
 
 
