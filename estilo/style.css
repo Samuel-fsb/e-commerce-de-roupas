@@ -776,6 +776,18 @@ footer .copyright{
 }
 
 
+/* PÁGINA DE CONTATO */
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
 @media (max-width: 768px){
     .section-p1{
