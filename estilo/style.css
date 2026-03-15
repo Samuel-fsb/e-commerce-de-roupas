@@ -732,7 +732,6 @@ footer .copyright{
 
 
 /* PÁGINA DE SOBRE */
-
 #page-header.about-header{
     background-image: url(../img/about/banner.png);
 }
@@ -775,19 +774,6 @@ footer .copyright{
     height: 100%;
     border-radius: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
@@ -1002,4 +988,22 @@ footer .copyright{
         width: 100%;
     }
 
+    /* AJUSTE NO TAMANHO DA PÁGINA SOBRE */
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0px;
+    }
+
+    #about-app .video{
+        width: 100%;
+    }
 }
