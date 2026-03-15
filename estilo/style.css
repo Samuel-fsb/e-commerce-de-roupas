@@ -731,6 +731,29 @@ footer .copyright{
 }
 
 
+/* PÁGINA DE SOBRE */
+
+#page-header.about-header{
+    background-image: url(../img/about/banner.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
 @media (max-width: 768px){
