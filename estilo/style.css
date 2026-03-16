@@ -991,6 +991,17 @@ footer .copyright{
     #prodetails .single-pro-details span{
         width: 10px;
     }
+
+
+    /* Ajuste do dos tamanhos da página de contato */
+    #form-details {
+       padding: 40px;
+    }
+
+     #form-details form{
+        width: 50%;
+     }
+
 }
 
 
@@ -1119,4 +1130,29 @@ footer .copyright{
     #about-app .video{
         width: 100%;
     }
+
+    /* Ajuste do dos tamanhos da página de contato */
+    #contact-details{
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map{
+        width: 100%;
+    }
+
+    #form-details{
+        flex-wrap: wrap;
+        padding: 30px 10px;
+    }
+
+    #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 }
