@@ -888,6 +888,10 @@ footer .copyright{
 
 
 /* PÁGINA DO CARRINHO */
+#cart{
+    overflow-x: auto;
+}
+
 #cart table{
     width: 100%;
     border-collapse: collapse;
@@ -948,8 +952,6 @@ footer .copyright{
     font-size: 13px;
 }
 
-
-/* PÁGINA DO CARRINHO */
 #cart-add{
     display: flex;
     flex-wrap: wrap;
@@ -961,7 +963,8 @@ footer .copyright{
     margin-bottom: 30px;
 }
 
-#coupon h3{
+#coupon h3,
+#subtotal h3{
     padding-bottom: 15px;
 }
 
@@ -973,8 +976,32 @@ footer .copyright{
     border: 1px solid #e2e9e1;
 }
 
+#coupon button,
+#subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+}
 
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
 
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
 
 
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
@@ -1247,8 +1274,16 @@ footer .copyright{
 
 
     /* Ajuste do dos tamanhos da página de carrinho*/
+    #cart-add{
+        flex-direction: column;
+    }
 
+    #coupon{
+        width: 100%;
+    }
 
-
-
+    #subtotal{
+        width: 100%;
+        padding: 20px;
+    }
 }
