@@ -886,7 +886,15 @@ footer .copyright{
     color: #000;
 }
 
-/*  */
+
+/* PÁGINA DO CARRINHO */
+#cart table{
+    
+}
+
+
+
+
 
 
 /* VERSÃO PARA CELULARES MAIORES E TABLETES */
@@ -1090,8 +1098,8 @@ footer .copyright{
         
     }
 
-    /* AJUSTE DO TAMANHO DOS ARTIGOS */
 
+    /* Ajuste para a seção de blog */
     #blog{
         padding: 100px 20px 0px 20px;
     }
@@ -1112,7 +1120,8 @@ footer .copyright{
         width: 100%;
     }
 
-    /* AJUSTE NO TAMANHO DA PÁGINA SOBRE */
+
+    /* Ajuste do tamanho da página sobre */
     #about-head{
         flex-direction: column;
     }
@@ -1130,6 +1139,7 @@ footer .copyright{
     #about-app .video{
         width: 100%;
     }
+
 
     /* Ajuste do dos tamanhos da página de contato */
     #contact-details{
@@ -1154,5 +1164,11 @@ footer .copyright{
         width: 100%;
         margin-bottom: 30px;
     }
+
+
+    /* Ajuste do dos tamanhos da página de carrinho*/
+
+
+
 
 }
