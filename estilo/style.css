@@ -661,7 +661,6 @@ footer .copyright{
 
 
 /* PÁGINA DE ARTIGOS */
-
 #page-header.blog-header{
     background-image: url(../img/banner/b19.jpg);
 }
@@ -932,9 +931,6 @@ footer .copyright{
 
 #cart table thead{
     border: 1px solid #e2e9e1;
-
-    /*border-left: none;
-    border-right: none;*/
 }
 
 #cart table thead td{
