@@ -18,11 +18,16 @@ if (close){
 // FUNCIONALIDADE DE SOMA DENTRO DO CARRINHO.
 
 // Capturando os elementos via DOM.
-const PrecoRoupas = document.querySelectorAll('.cart')
+const PrecoRoupas = document.querySelectorAll('.cart');
 
-addEventListener('click', () =>{
+PrecoRoupas.forEach(botao => {
+botao.addEventListener('click', (event) =>{
+    event.preventDefault();
 
+    const ElementoPai = botao.parentElement;    
+
+   
+    });
 });
-
 
 
