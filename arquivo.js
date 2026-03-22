@@ -24,9 +24,13 @@ PrecoRoupas.forEach(botao => {
 botao.addEventListener('click', (event) =>{
     event.preventDefault();
 
-    const ElementoPai = botao.parentElement;    
-
+    //Secionando o nome e preço do produto.
+    const NomeProduto = botao.parentElement.closest('.pro');    
+    NomeProduto.querySelector('h5').innerText;
    
+    const PrecoProduto = botao.parentElement.closest('.pro');
+    PrecoProduto.querySelector('h4').innerHTML
+
     });
 });
 
