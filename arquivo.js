@@ -25,11 +25,12 @@ botao.addEventListener('click', (event) =>{
     event.preventDefault();
 
     //Secionando o nome e preço do produto.
-    const NomeProduto = botao.parentElement.closest('.pro');    
-    NomeProduto.querySelector('h5').innerText;
-   
-    const PrecoProduto = botao.parentElement.closest('.pro');
-    PrecoProduto.querySelector('h4').innerHTML
+    const Carrinho = botao.parentElement.closest('.pro');  
+
+    const Nome = Carrinho.querySelector('h5').innerText;
+    const Preco = Carrinho.querySelector('h4').inneText;
+
+    const PrecoCerto = Number(Preco.replace("R$", ""))
 
     });
 });
