@@ -28,22 +28,27 @@ botao.addEventListener('click', (event) =>{
     const Carrinho = botao.parentElement.closest('.pro');  
 
     const NomeProduto = Carrinho.querySelector('h5').innerText;
-    const PrecoProduto = Carrinho.querySelector('h4').inneText;
+    const PrecoProduto = Carrinho.querySelector('h4').innerText;
     const PrecoCerto = Number(PrecoProduto.replace("R$", ""));
     const Imagem = Carrinho.querySelector('img');
     const ImagemProduto = Imagem.src;
 
-    //Criando obejeto para guardar as informações.
+    //Criando objeto para guardar as informações.
     const InfoProdutos = {
         Nome: NomeProduto,
         Produto: PrecoCerto,
         ImagemInfo: ImagemProduto,
     };
 
-    const ProdutosStrig = JSON.stringify(InfoProdutos);
-    localStorage.setItem(ProdutosStrig);
 
+    //Verificando e adicionado novos itens a lista de arrays.
+    localStorage.getItem('carrinho');
 
+    ListaProdutos = JSON.parse(localStorage.getItem('carrinho')) || [];
+
+    ListaProdutos.push(InfoProdutos);
+
+    localStorage.setItem('carrinho', JSON.stringify(ListaProdutos));
 
 
     });
