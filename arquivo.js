@@ -56,18 +56,48 @@ botao.addEventListener('click', (event) =>{
 
     JSON.parse(localStorage.getItem('carrinho', ListaProdutos));
 
+    let SomaTotal = 0
+    
     ListaProdutos.forEach(produto => {
-        TabelaBody.innerHTML =+ `
+        TabelaBody.innerHTML += `
         <tr>
             <td><a href="#"><i class="fa-regular fa-circle-xmark"></td>
             <td><img src="${produto.imagemInfo}" alt=""></td>
-            <td>${produto.NomeProduto}</td>
-            <td>${produto.PrecoCerto}</td>
+            <td>${produto.Nome}</td>
+            <td>${produto.Produto}</td>
             <td><input type="number" value="1"></td>
-            <td>${produto.PrecoCerto}</td>
+            <td>${produto.Produto}</td>
         </tr>
         `
+        SomaTotal += produto.Produto;
     });
+
+
+    //Função para somar os valores.
+
+    let ValorTotal = document.querySelector('table');
+    
+    const AtualizarValor = () => {
+        ValorTotal.innerHTML += `
+        <tr>
+                    <td>Subtotal</td>
+                    <td>${SomaTotal}</td>
+                </tr>
+                <tr>
+                    <td>Frete</td>
+                    <td>Desconto</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>${SomaTotal}</strong></td>
+                </tr>
+        `
+    };
+
+    AtualizarValor();
+
+
+
 
 
 
