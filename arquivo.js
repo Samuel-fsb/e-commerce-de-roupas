@@ -51,6 +51,27 @@ botao.addEventListener('click', (event) =>{
     localStorage.setItem('carrinho', JSON.stringify(ListaProdutos));
 
 
+    //Removendo itens de exemplo.
+    const TabelaBody = document.querySelector('tbody');
+
+    JSON.parse(localStorage.getItem('carrinho', ListaProdutos));
+
+    ListaProdutos.forEach(produto => {
+        TabelaBody.innerHTML =+ `
+        <tr>
+            <td><a href="#"><i class="fa-regular fa-circle-xmark"></td>
+            <td><img src="${produto.imagemInfo}" alt=""></td>
+            <td>${produto.NomeProduto}</td>
+            <td>${produto.PrecoCerto}</td>
+            <td><input type="number" value="1"></td>
+            <td>${produto.PrecoCerto}</td>
+        </tr>
+        `
+    });
+
+
+
+
     });
 });
 
